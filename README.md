@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-The objective is to get a holistic overview of solving a business problem through analytics and to set up the foundations of the skills required to work with data, delivered via the foundations of Python.
+The objective is to get a holistic overview of solving a business problem through analytics and to set up the foundations of the skills required to work with data, delivered via the foundations of Python. 
 
 ## Reference Material
 
@@ -33,3 +33,5 @@ Here is a list of important python functions and attributes (arranged alphabetic
 - [The pandas DataFrame: Make Working With Data Delightful](https://realpython.com/pandas-dataframe/)
 
 - [How to Clean Text for Machine Learning with Python](https://machinelearningmastery.com/clean-text-machine-learning-python/)
+
+- [A comprehensive guide on effective text cleaning techniques](https://machinelearningmastery.com/clean-text-machine-learning-python/)
