@@ -83,6 +83,89 @@ Analyze order data from FoodHub, a food aggregator company in New York, to under
 
 ---
 
+### 3. 🍯 Honey Production Case Study
+
+**Location:** [`case-studies/honey-production/`](./case-studies/honey-production/)
+
+Explore the decline of honey production in the United States from 1998 to 2016, investigating the impact of Colony Collapse Disorder (CCD) and analyzing trends in production, pricing, and state-level performance.
+
+| Aspect              | Details                                                                    |
+| ------------------- | -------------------------------------------------------------------------- |
+| **Business Domain** | Agriculture / Environmental Science                                        |
+| **Dataset Size**    | 786 records, 8 features (19 years: 1998-2016)                              |
+| **Key Variables**   | state, numcol, yieldpercol, totalprod, stocks, priceperlb, prodvalue, year |
+| **Analysis Focus**  | Production trends, colony decline, pricing dynamics, state-level patterns  |
+
+**Key Questions Answered:**
+
+- How has honey production yield changed from 1998 to 2016?
+- What are the major production trends across states over time?
+- Are there patterns between total honey production and value of production each year?
+- Which states are the largest honey producers and which produce the most expensive honey?
+
+**Key Findings:**
+
+- 📉 Overall honey production in the US has been decreasing over the years
+- 🐝 Decline attributed to both decreasing colonies AND decreasing yield per colony
+- 🏆 Top producers: North Dakota, California, South Dakota, Florida, Montana
+- 💰 Virginia produces the costliest honey; Oklahoma produces the cheapest
+
+📖 [View Full Documentation](./case-studies/honey-production/README.md)
+
+---
+
+### 4. 📱 Google Play Store Case Study (Zoom Ads)
+
+**Location:** [`case-studies/google-play-store/`](./case-studies/google-play-store/)
+
+Analyze Google Play Store data for Zoom Ads, an advertising agency looking to identify trending Android applications for targeted advertisement promotion to maximize profit.
+
+| Aspect              | Details                                                                             |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| **Business Domain** | Digital Advertising / Mobile App Market                                             |
+| **Dataset Size**    | App store data with 12 features                                                     |
+| **Key Variables**   | App, Category, Rating, Reviews, Size, Installs, Price, Content Rating, Ad Supported |
+| **Analysis Focus**  | App trends, market analysis, advertising opportunities, user engagement patterns    |
+
+**Context:**
+
+Android is the mobile operating system running on Google OS with about **69% of the market share worldwide**. The Google Play Store is the Android app store used to install Android Apps. Zoom Ads wants to understand app trends to focus advertising efforts on applications that are trending and can lead to maximum profit.
+
+**Key Questions Answered:**
+
+- Which app categories are most popular on the Google Play Store?
+- What is the relationship between app ratings and number of installs?
+- How do free vs paid apps compare in terms of user engagement?
+- Which apps support advertisements and have high user engagement?
+- What content ratings attract the most users?
+
+**Analysis Guidelines:**
+
+- 📊 Univariate analysis to understand individual variable distributions
+- 🔗 Bivariate analysis to explore correlations between variables
+- 📈 Visualizations to extract actionable insights for advertising strategy
+
+**Data Features:**
+
+| Feature            | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| `App`              | Application Name                                       |
+| `Category`         | Category the app belongs to                            |
+| `Rating`           | Overall user rating of the app                         |
+| `Reviews`          | Number of user reviews for the app                     |
+| `Size`             | Size of the app in kilobytes                           |
+| `Installs`         | Number of user downloads/installs for the app          |
+| `Price`            | Price of an app in dollars                             |
+| `Paid/Free`        | Whether an app is paid or free (Yes/No)                |
+| `Content Rating`   | Age group the app is targeted at                       |
+| `Ad Supported`     | Whether an app supports an Ad or not (Yes/No)          |
+| `In App Purchases` | App containing in-app purchase feature or not (Yes/No) |
+| `Editors Choice`   | Whether rated as Editor's Choice (Yes/No)              |
+
+📖 [View Full Documentation](./case-studies/google-play-store/README.md)
+
+---
+
 ## 🛠️ Skills Covered
 
 | Skill Category           | Topics                                                              |
@@ -118,10 +201,18 @@ python-foundations/
     │   ├── README.md                  # Tips case study documentation
     │   ├── Tips_Case_Study.ipynb      # Jupyter notebook with analysis
     │   └── tips.csv                   # Dataset
-    └── food-hub/
-        ├── README.md                  # FoodHub case study documentation
-        ├── foodhub.ipynb              # Jupyter notebook with analysis
-        └── foodhub_order.csv          # Dataset
+    ├── food-hub/
+    │   ├── README.md                  # FoodHub case study documentation
+    │   ├── foodhub.ipynb              # Jupyter notebook with analysis
+    │   └── foodhub_order.csv          # Dataset
+    ├── honey-production/
+    │   ├── README.md                  # Honey production case study documentation
+    │   ├── Session_Notebook_Honey_Production_Case_Study.ipynb  # Jupyter notebook
+    │   └── honeyproduction1998-2016.csv  # Dataset (1998-2016)
+    └── google-play-store/
+        ├── README.md                  # Google Play Store case study documentation
+        ├── Google_Play_Store_Case_Study.ipynb  # Jupyter notebook with analysis
+        └── google_play_store.csv      # Google Play Store dataset
 ```
 
 ---
