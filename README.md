@@ -166,6 +166,54 @@ Android is the mobile operating system running on Google OS with about **69% of 
 
 ---
 
+### 5. 🚗 Austo Automobile Case Study
+
+**Location:** [`case-studies/austo/`](./case-studies/austo/)
+
+Analyze customer data for Austo, a UK-based automobile company looking to expand into the US market by understanding buyer profiles and car purchase behavior.
+
+| Aspect              | Details                                                                          |
+| ------------------- | -------------------------------------------------------------------------------- |
+| **Business Domain** | Automobile / Market Research                                                     |
+| **Dataset Size**    | Customer data with 14 features                                                   |
+| **Key Variables**   | Age, Gender, Profession, Salary, Total_salary, Price, Make, Personal_loan, etc.  |
+| **Analysis Focus**  | Customer profiling, purchase behavior, market segmentation, demographic analysis |
+
+**Context:**
+
+In the 21st century, cars are essential for personal mobility. Research shows **more than 76% of people** limit their travel when they don't have a car. Austo has successfully established itself in the European market and now aims to understand US customer preferences for three major car types: **Hatchback**, **Sedan**, and **SUV**.
+
+**Key Questions Answered:**
+
+- What are the demographics of buyers for each car type?
+- How do income levels (personal and household) influence car purchase decisions?
+- What is the relationship between loan behavior and car pricing?
+- How does profession (Salaried vs Business) affect car preferences?
+- What customer profiles emerge for Hatchback, Sedan, and SUV buyers?
+
+**Data Features:**
+
+| Feature            | Description                                       |
+| ------------------ | ------------------------------------------------- |
+| `Age`              | Age of the customer                               |
+| `Gender`           | Gender of the customer                            |
+| `Profession`       | Salaried or Business person                       |
+| `Marital_status`   | Marital status (Single/Married)                   |
+| `Education`        | Highest education level (Graduate/Post Graduate)  |
+| `No_of_Dependents` | Number of dependents                              |
+| `Personal_loan`    | Whether customer availed a personal loan (Yes/No) |
+| `House_loan`       | Whether customer availed a house loan (Yes/No)    |
+| `Partner_working`  | Whether partner is working (Yes/No)               |
+| `Salary`           | Annual salary of the customer                     |
+| `Partner_salary`   | Annual salary of partner                          |
+| `Total_salary`     | Annual household income                           |
+| `Price`            | Price of the car purchased                        |
+| `Make`             | Car type - Hatchback, Sedan, or SUV               |
+
+📖 [View Full Documentation](./case-studies/austo/README.md)
+
+---
+
 ## 🛠️ Skills Covered
 
 | Skill Category           | Topics                                                              |
@@ -209,10 +257,14 @@ python-foundations/
     │   ├── README.md                  # Honey production case study documentation
     │   ├── Session_Notebook_Honey_Production_Case_Study.ipynb  # Jupyter notebook
     │   └── honeyproduction1998-2016.csv  # Dataset (1998-2016)
-    └── google-play-store/
-        ├── README.md                  # Google Play Store case study documentation
-        ├── Google_Play_Store_Case_Study.ipynb  # Jupyter notebook with analysis
-        └── google_play_store.csv      # Google Play Store dataset
+    ├── google-play-store/
+    │   ├── README.md                  # Google Play Store case study documentation
+    │   ├── Google_Play_Store_Case_Study.ipynb  # Jupyter notebook with analysis
+    │   └── google_play_store.csv      # Google Play Store dataset
+    └── austo/
+        ├── README.md                  # Austo case study documentation
+        ├── austo_project.ipynb        # Jupyter notebook with analysis
+        └── austo_automobile.csv       # Customer and car purchase dataset
 ```
 
 ---
